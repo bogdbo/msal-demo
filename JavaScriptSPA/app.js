@@ -3,7 +3,7 @@ var graphApiEndpoint = "https://graph.microsoft.com/v1.0/me";
 var todoListApiEndpoint = "http://localhost:1234/test";
 
 // Graph API scope used to obtain the access token to read user profile
-var graphAPIScopes = ["https://graph.microsoft.com/user.read"];
+var graphAPIScopes = ["229cbc5f-8ed8-4a32-a6e8-cfef051b6fca"];
 
 // Initialize application
 var userAgentApplication = new Msal.UserAgentApplication(msalconfig.clientID, null, loginCallback, {
